@@ -1,0 +1,248 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+
+body{
+  box-sizing: inherit;
+  font-family: sans-serif;
+}
+/* ******************************** header components *************************** */
+header{
+  background-color: #460046;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.5);
+  padding: 1rem;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+.navbar{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.logo-container{
+  display: flex;
+  align-items: center;
+}
+.logo-img{
+  width: 26.8rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ion-icon{
+  line-height: 1;
+  padding: 10px 0 10px 10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a:link,
+nav ul li a:visited{
+  color: #eee;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.3rem 2rem;
+  transition: all 0.3s;
+  border-bottom: .6rem solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+  color: #FE52BA;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.3rem 2rem;
+  border-bottom: .35rem solid #FE52BA;
+  position: relative;
+  transition: all 0.3s;
+}
+.sub{
+  margin-top: 1.45rem;
+  display: none;
+  position: absolute;
+  background-color: #460046;
+  padding: 1.3rem 2rem;
+  transition: all 0.3s;
+}
+.sub li a{
+  display: flex;
+  border-bottom: .2rem solid transparent !important;
+}
+nav ul li:hover .sub{
+  display: block;
+}
+.nav-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ******************************** hero components *************************** */
+
+.section-hero{
+  padding: 15.1rem 15rem 5rem 15rem;
+  background-color: #460046;
+  border-bottom: 2rem solid #fe52ba;
+}
+
+.hero-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-banner img{
+  height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.hero-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-title{
+  color: #FFFFFF;
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.hero-text{
+  color: #FFFFFF;
+  font-family: Sans-serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 1.2em;
+  margin-bottom: 2rem;
+}
+
+.hero-box .btn{
+  font-weight: 700;
+    text-transform: uppercase;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 25px 25px 25px 25px;
+    padding: 12px 30px 12px 30px;
+    width: fit-content !important;
+}
+
+/* ******************************** offer components *************************** */
+
+.section-offer{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px 150px 80px 150px;
+}
+
+.feature, .title{
+  text-align: center;
+}
+.container-feature{
+  column-gap: 1rem;
+}
+.offer-title{
+  color: #FFFFFF;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.feature-box{
+  text-align: center;
+  margin: 2rem;
+  padding: 4rem 3rem 3rem 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.feature-box .btn{
+  font-weight: bold;
+    text-transform: uppercase;
+    background-color: #F5D300;
+    border-radius: 1.8rem;
+    width: fit-content;
+}
+.box-1{
+  background-color: #460046;
+}
+.box-2{
+  background-color: #fe52ba;
+}
+.box-3{
+  background-color: #6ee1e7;
+}
+.feature-box img{
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding:2rem;
+}
+/* ******************************** galerey components *************************** */
+.flex-galarey{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0  0 10rem 0;
+}
+.galarey.title{
+  color: #000000;
+    font-family: Sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    text-align: start;
+    padding: 0 2rem !important;
+}
+.galarey-text{
+  color: #000000;
+  font-family: "Be Vietnam Pro", Sans-serif;
+  font-weight: 600;
+  line-height: 1.5em;
+  font-size: 1.5rem;
+  border-left: .5rem solid black;
+  padding-left: 2rem;
+}
+
+.portfolio{
+  column-gap: 1.5rem;
+}
+
+.section-galarey{
+  padding: 8rem 15rem;
+}
+.pf-img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* about */
+.group-img{
+  width: 100%;
+}

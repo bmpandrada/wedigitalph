@@ -1,0 +1,43 @@
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.title{
+    color: #000000;
+      font-family: inherit;
+      font-size: 5.5rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding-bottom: 5rem;
+  }
+.pink{
+    color: #fe52ba;
+  }
+  .blue{
+    color: #6ee1e7;
+  }
+
+.btn{
+    color: #eee;
+    background-color: #fe52ba;
+    border-radius: 10px;
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .grid--cols-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--cols-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid--cols-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+ 
