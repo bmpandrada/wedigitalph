@@ -1,0 +1,79 @@
+@media screen and (max-width:800px){
+.btn{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    width: max-content !important;
+}
+.nav-btn{
+    width: 100%;
+}
+    .grid--cols-1{
+        display: grid;
+        grid-template-columns: auto;
+      }
+      .grid--cols-3{
+        display: grid;
+        grid-template-columns:1fr;
+      }
+      .grid--cols-4{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+.section-hero{
+    padding: 6rem 3rem 3rem 3rem;
+}
+.hero-title{
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+.hero-text{
+    font-size: 1.2rem;
+}
+.hero-box .btn{
+    font-size:1.2rem ;
+    padding: .8rem 2rem .4rem;
+}
+nav ul{
+    display: none;
+}
+.logo-img{
+    width: 13.9rem;
+    height: 4.2rem;
+}
+.title, .galarey.title{
+    font-size: 2.2rem;
+}
+.section-offer{
+    padding: 2rem;
+}
+.section-galarey{
+    padding: 1rem 2rem;
+}
+.flex-galarey{
+    grid-template-columns: 1fr;
+}
+.portfolio {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.pf-img{
+    width: 100%;
+    height: 20vh;
+}
+.about-one-container{
+    padding: 8rem 0 5rem;
+}
+.about-box-text{
+    padding: 2rem 3rem 2rem 2rem;
+}
+.grid--footer-3{
+    grid-template-columns: 1fr;
+}
+.footer-map{
+    display: none;
+}
+.footer-address, .footer-contact p{
+    font-size: 1.2rem;
+}
+}
+

@@ -8,7 +8,7 @@ const Header = () => {
     </div>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a className='active' href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services <ion-icon name="caret-down-outline"></ion-icon></a>
         <ul className='sub'>

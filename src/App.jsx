@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Offer from "./components/Offer"
 import Galarey from "./components/Galarey"
 import AboutOne from "./components/AboutOne"
+import Footer from "./components/Footer"
 
 
 
@@ -25,6 +26,9 @@ function App() {
       <section className="section-aboutOne">
        <AboutOne />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </React.Fragment>
   )
 }
