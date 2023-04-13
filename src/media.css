@@ -35,6 +35,7 @@
 }
 nav ul{
     display: none;
+    
 }
 .logo-img{
     width: 13.9rem;
@@ -72,8 +73,49 @@ nav ul{
 .footer-map{
     display: none;
 }
-.footer-address, .footer-contact p{
+.footer-address, .footer-contact p {
     font-size: 1.2rem;
+}
+.navbar{
+    position: relative;
+    
+}
+.show{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background-color: #460046;
+    width: 100%;
+    left: 0;
+    
+}
+.navbar ul.show{
+    transition: all 0.3s;
+}
+.sub{
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%);
+}
+.sub li a{
+    border: none;
+}
+.show{
+    padding: 1rem;
+}
+nav ul li a:hover,
+nav ul li a:active{
+    padding: 1rem 0;
+  border-bottom: .35rem  transparent !important;
+
+}
+nav ul li .active{
+    border-bottom: .35rem  transparent !important;
+  }
+
+nav ul li{ 
+    padding: 1.1rem 0 0 0;
 }
 }
 
